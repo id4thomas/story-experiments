@@ -1,0 +1,22 @@
+{
+    "cuda_device": [
+        0
+    ],
+    "dataset_path": "/home/inglab/syr/dataset_db/text",
+    "lazy": true,
+    "story_chunking": 50,
+    "token_indexers": {
+        "openai_transformer": {
+            "type": "openai_transformer_byte_pair",
+            "model_path": "https://s3-us-west-2.amazonaws.com/allennlp/models/openai-transformer-lm-2018.07.23.tar.gz",
+            "n_ctx": 300
+        }
+    },
+    "tokenizer": {
+        "type": "word",
+        "word_splitter": {
+            "type": "openai"
+        }
+    },
+    "use_existing_cached_db": true
+}
