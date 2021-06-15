@@ -29,7 +29,7 @@ Experiments using story datasets
 | TRIPOD_processing  | Process TRIPOD with Coreference Resolution, Semantic Role Labeling. <ul><li>Protagonist Identification</li><li>Process to <s,r,o> tuples for COMET input</li></ul>     |
 | C2PO_TRIPOD  | Test forward, backward branching with COMET models & calculate path probability <ul><li>forward, backward branching</li><li>Retrieve relevant knowledge tuples using SentenceBERT</li></ul>   |
 | CAST_pairs  | Test various sentences with relation pairs mentioned in CAST. Mainly test pair related to intentions  |
-
+| Modeling_suspense | Test the provided model at official [repo](https://github.com/dwlmt/Story-Untangling)    |
 <!-- ### TRIPOD Processing
 Process TRIPOD with Coreference Resolution, Semantic Role Labeling.
 * Protagonist Identification with Coref Models
@@ -52,3 +52,4 @@ Mainly test pair related to intentions
 * C2PO
 * CAST
 * COMET
+* [Modelling Suspense in Short Stories as Uncertainty Reduction over Neural Representation](https://www.aclweb.org/anthology/2020.acl-main.161/)
