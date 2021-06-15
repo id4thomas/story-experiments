@@ -9,11 +9,15 @@ Try model inference using TRIPOD data
 * ```reader.json``` Separated reader params into separate files (put in ```examples_models_and_data``` folder)
 * ```predict.ipynb``` Model prediction examples
 
-### Analyzed Files
+### Model,DatsetReader Files
 * ```story_untangling/dataset_readers/writing_prompts_whole_story.py```
     * AllenNLP DatasetReader used for reading WritingPrompts
 * ```story_untangling/models/uncertain_reader.py```
     * Main model file
+
+### Model Loss
+* Disc_acccuracy
+* Gen_accuracy
 
 ### Notes
 #### AllenNLP Iterators
