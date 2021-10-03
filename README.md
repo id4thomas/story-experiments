@@ -8,6 +8,7 @@ Experiments using story datasets
 | CMU Movie Summary    |   |    |
 | StoryCommonsense    |   |     |
 | WritingPrompts    | Short stories collected from Reddit. (Prompt,Story) Pairs  |   |
+| Jian Guan Anonymized ROC Stories | ROC Stories, but replaced character names with [MALE],[FEMALE],[NEUTRAL] | https://github.com/thu-coai/CommonsenseStoryGen |
 
 <!-- * TRIPOD 
     * Turning Point annotated dataset (Synopsis, Screenplay)
@@ -19,6 +20,16 @@ Experiments using story datasets
     * (Prompt,Story) Pairs -->
 
 # Experiments
+## 2021.09
+| Folder   | Description                                                |
+| ------ | ------------------------------------------------------------ |
+| obstacle | Generate obstacles that prevents the subject from reaching goal state using commonsense knowledge models |
+
+## 2021.08
+| Folder   | Description                                                |
+| ------ | ------------------------------------------------------------ |
+| story_infill | Use text infilling methods to fill between plot points |
+
 ## 2021.06
 | Folder   | Description                                                |
 | ------ | ------------------------------------------------------------ |
